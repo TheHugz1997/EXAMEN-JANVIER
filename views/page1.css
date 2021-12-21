@@ -1,0 +1,33 @@
+.conteneur
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.block
+{
+    display: flex;
+    flex-direction:row;
+    height: 15px;
+}
+.lab
+{
+    block-size: 2em;
+    border-width:1px; 
+    width:auto;
+    margin: 0.2em;
+}
+body
+{
+    width: 500px;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 10px;
+}
+.butt
+{
+    background-color: steelblue;
+    font-size: large;
+    color: white;
+    padding: 10px; 
+}

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="page1.css" />
+    </head>
+    <body>
+        <h1>Liste des pièces de l'appartement</h1>
+        <div class="conteneur">
+            <% for (let i=0 ; i < laliste.length ;i++) {%>
+                <div class="lab"> 
+                    <%= laliste[i] %>
+                </div>
+            <% } %>
+        </div>
+    </body>
+    <form method="post">
+        <button class="butt" formaction="/another">Encoder une autre pièce</button>
+    </form>
+</html>
